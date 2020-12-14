@@ -1,0 +1,40 @@
+#VRML V2.0 utf8
+
+#---------------LECHE 1----------------
+
+Transform {
+	translation	0 0 0
+	children [
+
+#ETIQUETA
+Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["LECHE.jpg"]
+		}
+	}
+
+	geometry Cylinder { height 2.5 radius 1
+		top FALSE
+	}
+
+}
+
+
+#TAPA
+Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["TAPA.jpg"]
+		}
+	}
+
+	geometry Cylinder { height 2.5 radius 1
+		side FALSE
+	}
+
+}
+
+	]
+}	
+
